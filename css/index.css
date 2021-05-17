@@ -1,0 +1,342 @@
+/*for all pages*/
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.allh1 {
+    font-family: 'Euphoria Script', cursive;
+    font-size: 70px;
+    color: #400101;
+    text-align: center;
+    line-height: 10px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Didact Gothic', sans-serif;
+    padding-top: 0px;
+    line-height: 25px;
+    font-size: 30px;
+    color: #3B1E1A;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    padding-top: 0px;
+    font-size: 20px;
+    color: #3B1E1A;
+}
+
+p {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    color: #400101;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+li {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+    width: 700px;
+}
+
+/*homepage background*/
+
+.homepagebg {
+    background-image: url(../images/homepagebg.jpg);
+    /*background image credit: @JessBaileyDesigns on Unsplash - unsplash.com/photos/q10VITrVYUM*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+}
+
+html {
+   background-color: #A69289;
+}
+
+
+/*homepage text*/
+
+.myname {
+    text-align: center;
+    font-family: 'Euphoria Script', cursive;
+    font-size: 80px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    color: #400101;
+}
+
+.tagline {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    padding-top: 0px;
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #6b422e;
+}
+
+/*homepage nav bar*/
+
+.nav {
+    list-style: none;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    background-color: rgba(156, 137, 126, .83);
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.nav li a:hover {
+    background-color: #400101;
+}
+
+
+/*non-homepage nav bar*/
+
+.othernav {
+    list-style: none;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    /*background-color: rgba(156, 137, 126, .83);*/
+    background-color: #400101;
+    text-decoration: none;
+}
+
+.othernav li {
+    display: inline;
+}
+
+.othernav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.othernav li a:hover {
+    background-color: #A69289;
+}
+
+
+/*about*/
+
+.abouth2 {
+    text-align: left;
+    font-family: 'Didact Gothic', sans-serif;
+    padding-top: 0px;
+    padding-left: 7%;
+    font-size: 25px;
+    color: #3B1E1A;
+}
+
+.aboutp {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    padding-left: 7%;
+    width: 700px;
+}
+
+.headshot {
+    float: right;
+    padding-left: 30px;
+    padding-right: 7%;
+    padding-bottom: 10px;
+}
+
+/*resume*/
+
+.resumecontainer {
+    max-width: 750px;
+    border: 3px solid #400101;
+    padding: 50px;
+    background-color: #f5f0f3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resumeh1 {
+    font-family: 'Euphoria Script', cursive;
+    font-size: 70px;
+    color: #400101;
+    text-align: center;
+    line-height: 10px;
+    padding-top: 0px;
+}
+
+.resumeitem {
+    width: 100%;
+}
+
+a.resumelinks:hover {
+    color: #858585;
+}
+
+hr {
+    border: 1px solid #400101;
+    opacity: 50%;
+}
+
+
+/*portfolio*/
+
+.portfolioh2 {
+    text-align: left;
+    font-family: 'Didact Gothic', sans-serif;
+    padding: 30px;
+    line-height: 0px;
+    font-size: 30px;
+    color: #3B1E1A;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.firstportfolioh2 {
+    padding-top: 0px;
+    text-align: left;
+    font-family: 'Didact Gothic', sans-serif;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 0px;
+    font-size: 30px;
+    color: #3B1E1A;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+.portfoliop {
+    border: 1px solid #400101;
+    background-color: #E2DDE0;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    
+}
+
+.button:link {
+    color: white;
+    border: 1px solid white;
+    background-color: #400101;
+    padding: 13px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 5px ;
+    text-decoration: none;
+}
+
+a.button:hover {
+    color: #400101;
+    border: 1px solid #400101;
+    background-color: white;
+}
+
+a.button:visited {
+    color: white;
+    border: 1px solid white;
+    background-color: #997171;
+}
+
+
+/*contact*/
+
+.headshot3 {
+    float: left;
+    padding-left: 7%;
+    padding-bottom: 10px;
+    padding-right: 60px;
+}
+
+
+.contactp{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    padding-right: 7%;
+    
+}
+
+/*responsive design*/
+
+@media screen and (max-width: 1100px) {
+/*homepage*/
+    .tagline {
+        background-color: rgba(242, 209, 201, .83 );
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 770px) {      
+/*about*/
+    .headshot {
+        float: none;
+        max-width: 270px;
+    }
+
+    .aboutp {
+        width: auto;
+        font-size: 18px;
+        margin-right: 7%;
+    }
+    
+/*resume*/
+    .resumeh1 {
+        line-height: 50px;
+    }
+
+/*portfolio*/
+    .button:link {
+        line-height: 55px;
+    }
+    
+/*contact*/
+    .headshot3 {
+        float: none;
+        max-width: 270px;
+    }
+
+    .contactp {
+        padding-left: 7%;
+    }
+    
+    .contacth2 {
+        padding-left: 7%;
+        line-height: 35px;
+    }
+}
